@@ -24,7 +24,7 @@ github_username:  wangat2001
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-time-machine
 gems:
   - jekyll-feed
 exclude:
