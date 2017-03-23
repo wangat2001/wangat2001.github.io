@@ -195,7 +195,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (= 128)
+  github-pages
   jekyll (= 3.4.2)
   jekyll-feed (~> 0.6)
   json
