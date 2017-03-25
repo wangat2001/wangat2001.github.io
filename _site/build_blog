@@ -1,5 +1,0 @@
-Throubleshooting:
-on debian, run command boundle install error relate 'nokigiri':
-sudo apt-get install libxslt-dev libxml2-dev zlib1g-dev
-sudo gem install nokogiri -v '1.6.8.1'
-

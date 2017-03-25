@@ -13,10 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Build My Dream
+title: 一末笔记
+foot_title: 技术栈
+foot_name:  JAVA PYTHON LINUX
 email: 382933810@qq.com
 description: > # this means to ignore newlines until "baseurl:"
-  To be continue..
+  正在完善中，不定期更新
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wangat2001.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -24,10 +26,24 @@ github_username:  wangat2001
 
 # Build settings
 markdown: kramdown
+theme: minima
 #theme: jekyll-theme-time-machine
-theme: jekyll-theme-modernist
 gems:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# add by Wanglei
+include:
+  - pages
+
+navs:
+  - title: Tech
+    url: "#"
+  - title: Life
+    url: "#"
+  - title: Fitness
+    url: "#"
+  - title: English
+    url: "#"
