@@ -12,7 +12,7 @@ categories: jekyll blog
 
 
 ### Throubleshooting
-1. 执行boundle install failed，提示
+1. 执行bundle install failed，提示
 >run command boundle install error relate 'nokigiri':....
 
 解决之道：
