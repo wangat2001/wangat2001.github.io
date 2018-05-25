@@ -26,10 +26,8 @@ title:                 Re.w
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
-description:           >
-  A Jekyll theme with JavaScript powers. "Best Theme by a Mile".
-  Combines the best of static sites and modern web apps.
-  Open `_config.yml` to edit this text.
+description:           >  
+  Build your dream.
 
 # A shorter description for the sidebar.
 tagline:               >
@@ -106,10 +104,10 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons:         [about, newsletter, related]
+  post_addons:         [newsletter]
 
   # Configure the order of complementary content on project pages
-  project_addons:      [about, newsletter, other]
+  project_addons:      [newsletter, other]
 
   # If you do not use Google Fonts, set to `true`.
   no_google_fonts:     false
