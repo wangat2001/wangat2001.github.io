@@ -10,6 +10,9 @@ categories: jekyll blog
 - Ruby: 2.3
 - website platform: github pages
 
+```
+ bundle exec jekyll serve
+```
 
 ### Throubleshooting
 1. 执行bundle install failed，提示
