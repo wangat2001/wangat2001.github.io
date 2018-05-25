@@ -1,8 +1,4 @@
 source "https://rubygems.org"
-require 'json'
-require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
-ruby RUBY_VERSION
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -12,22 +8,34 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.4.2"
-
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.0"
-
+# gem "jekyll"
+#gem "jekyll-theme-hydejack-pro", git: 'git@hydejack:qwtel/hydejack-pro.git', branch: 'gem-pro' 
+ 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
+# gem 'github-pages'
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 gem "github-pages", group: :jekyll_plugins
-#gem 'github-pages', versions['github-pages']
+# gem 'github-pages', versions['github-pages']
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-   gem "jekyll-feed", "~> 0.6"
+  # gem "jekyll-avatar"
+  # gem "jekyll-default-layout"
+  gem "jekyll-feed"
+  # gem "jekyll-gist"
+  # gem "jekyll-optional-front-matter"
+  #gem "jekyll-paginate"
+  # gem "jekyll-readme-index"
+  # gem "jekyll-redirect-from"
+  #gem "jekyll-relative-links"
+  # gem "jekyll-remote-theme"
+  #gem "jekyll-seo-tag"
+  #gem "jekyll-sitemap"
+  # gem "jekyll-titles-from-headings"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-#add by Wanglei
-gem "jekyll-theme-time-machine"

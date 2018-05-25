@@ -1,0 +1,3 @@
+---
+BUNDLE_PATH: "vendor/bundle"
+BUNDLE_WITH: "nokogiri-1.6.8.1"
