@@ -1,9 +1,9 @@
 ---
 layout: list
 title: gym
-slug: gym1
+slug: gym
 menu: true
-order: 2
+order: 1
 description: >
  hello~my tag
 ---
