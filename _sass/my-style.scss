@@ -1,0 +1,57 @@
+.tag-list {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: #666;
+  background-color: rgba(0,0,0,0.025);
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.tag-list-item {
+  float: left;
+  list-style-type: none;
+}
+
+.tag {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 10px;
+  color: #fff !important;
+  height: 18px;
+  line-height: 18px;
+  float: left;
+  padding: 0 5px 0 10px;
+  position: relative;
+  border-radius: 0 5px 5px 0;
+  border-color: inherit;
+  margin: 5px 9px 5px 8px;
+}
+
+.tag:before {
+  content: " ";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: -18px;
+  border: 9px solid transparent;
+  border-right-color: inherit;
+}
+
+.tag:after {
+  content: " ";
+  width: 4px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .3);
+  position: absolute;
+  top: 7px;
+  left: 2px;
+}
+
+.clearfix:after, .clearfix:before {
+  content: "";
+  display: table;
+}
