@@ -1,11 +1,11 @@
 ---
 layout: list
-title: 
-slug: 
+title: reading
+slug: reading
 tag: true
 menu: false
 order: 1
 description: >
- hello~my tag
+ 我的读书笔记
 accent_color: '#F08080'
 ---

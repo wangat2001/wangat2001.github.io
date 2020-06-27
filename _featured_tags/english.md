@@ -6,6 +6,6 @@ tag: true
 menu: false
 order: 1
 description: >
- hello~my english
+ 我要说一口流利的英语
 accent_color: '#F08080'
 ---
